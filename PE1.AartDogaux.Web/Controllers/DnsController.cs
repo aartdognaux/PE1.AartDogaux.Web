@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 
@@ -10,7 +11,9 @@ namespace PE1.AartDogaux.Web.Controllers
     {
         public IActionResult DnsCheck(string hostname)
         {
+            Dns.GetHostAddressesAsync(hostname);
             return View();
+            
         }
     }
 }

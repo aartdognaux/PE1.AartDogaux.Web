@@ -54,13 +54,17 @@ namespace PE1.AartDogaux.Web
 
             app.UseMvc(routes =>
             {
+                //routes.MapRoute(
+                //    name: "DnsCheck",
+                //    template: "{controller=Dns}/DnsCheck/{id?}");
+
                 routes.MapRoute(
-                    name: "DnsCheck",
-                    template: "{controller=Dns}/DnsCheck/{id?}");
+                     name: "DnsCheck",
+                     template: "Dns/DnsCheck/{id?}");
 
                 routes.MapRoute(
                  name: "kleuren",
-                 template: "{controller=Kleuren}/kleuren/{id?}");
+                 template: "kleuren/{id?}");
 
                 routes.MapRoute(
                     name: "default",
