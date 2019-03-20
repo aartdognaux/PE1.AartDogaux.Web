@@ -9,10 +9,17 @@ namespace PE1.AartDogaux.Web.Controllers
 {
     public class DnsController : Controller
     {
-        public IActionResult DnsCheck(string hostname)
+
+        // proberen Async maken
+        public IActionResult Resolve(string hostName)
         {
-            Dns.GetHostAddressesAsync("www.amazon.com");
-            return View();
+            string adressen = "Het IP adres van " + hostName + ": \n";
+            var result = Dns.GetHostAddressesAsync(hostName).Result;
+            foreach (var item in result)
+            {
+                adressen += item.ToString()+"\n";
+            }
+            return Content(adressen);
             
         }
     }
