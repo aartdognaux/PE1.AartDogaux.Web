@@ -11,7 +11,7 @@ namespace PE1.AartDogaux.Web.Controllers
     {
         public IActionResult DnsCheck(string hostname)
         {
-            Dns.GetHostAddressesAsync(hostname);
+            Dns.GetHostAddressesAsync("www.amazon.com");
             return View();
             
         }

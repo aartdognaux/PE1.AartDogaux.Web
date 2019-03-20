@@ -10,7 +10,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace PE1.AartDogaux.Web
+namespace PE1.AartDognaux.Web
 {
     public class Startup
     {
@@ -54,9 +54,6 @@ namespace PE1.AartDogaux.Web
 
             app.UseMvc(routes =>
             {
-                //routes.MapRoute(
-                //    name: "DnsCheck",
-                //    template: "{controller=Dns}/DnsCheck/{id?}");
 
                 routes.MapRoute(
                      name: "DnsCheck",

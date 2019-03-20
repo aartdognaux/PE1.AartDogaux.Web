@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.489
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PE1.AartDogaux.Web", "PE1.AartDogaux.Web\PE1.AartDogaux.Web.csproj", "{8D8C149E-DFE4-431C-9D31-BD218104E28F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PE1.AartDognaux.Web", "PE1.AartDogaux.Web\PE1.AartDognaux.Web.csproj", "{8D8C149E-DFE4-431C-9D31-BD218104E28F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PE1.AartDognaux.Lib", "PE1.AartDognaux.Lib\PE1.AartDognaux.Lib.csproj", "{F8F120C7-EB0F-4592-963B-A14776DF4D7A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PE1.AartDognaux.Lib", "PE1.AartDognaux.Lib\PE1.AartDognaux.Lib.csproj", "{F8F120C7-EB0F-4592-963B-A14776DF4D7A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

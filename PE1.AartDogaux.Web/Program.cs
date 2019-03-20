@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 
-namespace PE1.AartDogaux.Web
+namespace PE1.AartDognaux.Web
 {
     public class Program
     {
